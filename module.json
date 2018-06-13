@@ -1,0 +1,11 @@
+{
+  "fullname": "@nebulario/app-layout",
+  "version": "1.0.0",
+  "repository": {
+    "url": "github.com:vicjicaman/app-layout.git",
+    "upstream": {}
+  },
+  "labels": {
+    "type": "npm"
+  }
+}
