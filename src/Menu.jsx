@@ -10,7 +10,7 @@ export const Menu = ({brand, items}) => (<nav className="navbar navbar-expand-md
         <a className="nav-link" href="#">Left</a>
       </li>
       <li key={2} className="nav-item">
-        <a className="nav-link" href="//codeply.com">Codeply</a>
+        <a className="nav-link" href="//codeply.com">Codeply-REMOVE</a>
       </li>
     </ul>
   </div>
