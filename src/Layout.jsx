@@ -7,14 +7,11 @@ import {Breadcrumb} from './Breadcrumb.jsx';
 
 export const Layout = ({children, brand, items}) => <div>
   <Menu brand={brand} items={items}/>
-
-  <div className="container-fluid">
-    <Sidebar>
-      <div className="container-fluid">
-        <Breadcrumb></Breadcrumb>
-        <hr/> {children}
-      </div>
-    </Sidebar>
+  <div style={{
+      marginBottom: "90px"
+    }} className="container-fluid pt-2">
+    <Breadcrumb></Breadcrumb>
+    {children}
   </div>
   <Footer/>
 
