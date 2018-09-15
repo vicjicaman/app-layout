@@ -1,17 +1,12 @@
 import React from "react";
 
 
-export const Menu = ({brand, items}) => (<nav className="navbar navbar-expand-md navbar-dark bg-dark">
+export const Menu = ({brand, right, left}) => (<nav className="navbar navbar-expand-md navbar-dark bg-dark">
 
 
   <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
     <ul className="navbar-nav mr-auto">
-      <li key={1} className="nav-item active">
-        <a className="nav-link" href="#">Left</a>
-      </li>
-      <li key={2} className="nav-item">
-        <a className="nav-link" href="//codeply.com">Codeply-REM</a>
-      </li>
+      {left}
     </ul>
   </div>
   <div className="mx-auto order-0">
@@ -22,7 +17,7 @@ export const Menu = ({brand, items}) => (<nav className="navbar navbar-expand-md
   </div>
   <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
     <ul className="navbar-nav ml-auto">
-      {items}
+      {right}
     </ul>
   </div>
 </nav>)
