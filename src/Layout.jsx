@@ -9,7 +9,7 @@ export const Layout = ({children, brand, rightMenu, leftMenu, indices}) => <div>
   <Menu brand={brand} right={rightMenu} left={leftMenu}/>
   <div style={{
       marginBottom: "90px"
-    }} className="container-fluid pt-2">
+    }} className="container-fluid pt-1">
     <Indice>
       {indices}
     </Indice>
