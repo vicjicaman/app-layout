@@ -3,6 +3,6 @@ import style from "./style.css"
 
 export const Footer = ({}) => (<footer className={style.footer}>
   <div className="container">
-    <span className="text-muted">Content here.</span>
+    <span className="text-muted"></span>
   </div>
 </footer>)
